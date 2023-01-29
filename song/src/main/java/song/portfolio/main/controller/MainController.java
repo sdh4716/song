@@ -20,7 +20,7 @@ public class MainController {
 		
 		System.out.println("메인");
 		
-		mav.setViewName("song/portfolio/main/main");
+		mav.setViewName("/song/portfolio/main/main");
 		return mav;
 	}
 }
